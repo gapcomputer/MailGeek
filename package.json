@@ -1,0 +1,20 @@
+{
+  "name": "mailgeek-chrome-extension",
+  "version": "1.0.0",
+  "description": "MailGeek Chrome Extension",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.x",
+    "@babel/preset-env": "^7.x",
+    "babel-jest": "^29.x",
+    "jest": "^29.x"
+  }
+}
